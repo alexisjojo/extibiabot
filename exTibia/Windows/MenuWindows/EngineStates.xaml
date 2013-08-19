@@ -1,0 +1,21 @@
+﻿<Window x:Class="exTibia.EngineStates"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EngineStates" SizeToContent="WidthAndHeight" WindowStyle="ToolWindow">
+    <Grid Height="120" Width="90">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+        </Grid.RowDefinitions>
+        <CheckBox Grid.Row="0" VerticalAlignment="Center" Margin="10 0 0 0">Alarms</CheckBox>
+        <CheckBox Grid.Row="1" VerticalAlignment="Center" Margin="10 0 0 0">CaveBot</CheckBox>
+        <CheckBox Grid.Row="2" VerticalAlignment="Center" Margin="10 0 0 0">Healer</CheckBox>
+        <CheckBox Grid.Row="3" VerticalAlignment="Center" Margin="10 0 0 0">Hotkeys</CheckBox>
+        <CheckBox Grid.Row="4" VerticalAlignment="Center" Margin="10 0 0 0">HUDs</CheckBox>
+        <CheckBox Grid.Row="5" VerticalAlignment="Center" Margin="10 0 0 0">Targeting</CheckBox>
+    </Grid>
+</Window>

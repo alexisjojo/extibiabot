@@ -1,0 +1,24 @@
+﻿<Window x:Class="exTibia.CbDrawMap"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Modules="clr-namespace:exTibia.Modules"
+        Icon="/exTibia;component/Graphics/icon.ico"
+        Title="CbDrawMap" SizeToContent="WidthAndHeight" FontSize="9" Closing="Window_Closing" WindowStyle="ToolWindow" Activated="Window_Activated">
+        
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80" />
+
+        </Grid.ColumnDefinitions>
+
+        <CheckBox Grid.Row="0" VerticalAlignment="Center" Name="DrawMapCheckbox" Checked="DrawMapCheckbox_Checked" Unchecked="DrawMapCheckbox_Unchecked">Draw map</CheckBox>
+        <CheckBox Grid.Row="1" VerticalAlignment="Center" Name="DrawItemsCheckbox" Checked="DrawItemsCheckbox_Checked" Unchecked="DrawItemsCheckbox_Unchecked">Draw items</CheckBox>
+        <CheckBox Grid.Row="2" VerticalAlignment="Center" Name="DrawWayCheckbox" Checked="DrawWayCheckbox_Checked" Unchecked="DrawWayCheckbox_Unchecked">Draw way</CheckBox>
+    </Grid>
+</Window>

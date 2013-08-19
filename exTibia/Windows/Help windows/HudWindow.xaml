@@ -1,0 +1,10 @@
+﻿<Window x:Class="exTibia.HudWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HudWindow" Height="2600" Width="2600"
+        WindowStyle="None" AllowsTransparency="True"
+        Topmost="True">
+    <Grid>
+        
+    </Grid>
+</Window>

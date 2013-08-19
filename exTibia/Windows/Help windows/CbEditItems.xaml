@@ -1,0 +1,39 @@
+﻿<Window x:Class="exTibia.CbEditItems"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/exTibia;component/Graphics/icon.ico"
+        Title="CbEditItems" Height="208" Width="160"  FontSize="9" Closing="Window_Closing">
+    <Grid Height="160" Width="135">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="115" />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+        <ListBox Grid.Row="1" Height="115" HorizontalAlignment="Center" Name="ItemsListbox" VerticalAlignment="Top" Width="120" Margin="8,0">
+
+            <ListBox.ItemTemplate>               
+                <DataTemplate>            
+                    <Grid Height="15">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="15" />
+                        </Grid.RowDefinitions>
+                        <Grid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Name="RemoveItem" Header="Remove" Click="RemoveItem_Click" />                              
+                            </ContextMenu>
+                        </Grid.ContextMenu>
+                        <TextBlock Grid.Row="0" Text="{Binding Text}" HorizontalAlignment="Left"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
+
+
+
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Name="textTitle">List of nonwalkable items:</TextBlock>
+        <Button Grid.Row="2" Height="20" Content="Add new item" HorizontalAlignment="Left" Width="80" Name="btnAddItem" Click="btnAddItem_Click"></Button>
+        <TextBox Grid.Row="2" Height="20" Margin="70 0 0 0" HorizontalAlignment="Center" Width="40" Name="txtItemID"></TextBox>
+    </Grid>
+</Window>

@@ -1,0 +1,89 @@
+﻿<Window x:Class="exTibia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="exTibia" 
+        WindowStyle="ToolWindow" 
+        ResizeMode="NoResize" 
+        SizeToContent="WidthAndHeight" 
+        mc:Ignorable="d" 
+        xmlns:local="clr-namespace:exTibia"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        Topmost="True"  FontSize="9" Closing="Window_Closing" Icon="/exTibia;component/Graphics/icon.ico">
+    
+    
+        <Menu FontSize="10" Name="exTibiaMenu" Grid.ColumnSpan="2">
+            <MenuItem Header="Main">
+            <MenuItem Header="Attach To Client" Name="MenuItemClients" ItemsSource="{Binding Clients, Source={x:Static local:Helpers.TibiaClients.Instance}}" SubmenuOpened="MenuItemClients_SubmenuOpened" Click="MenuItemClients_Click">
+                <MenuItem.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Height="20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="16" />
+                                <ColumnDefinition Width="100*" />
+                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="50" />
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Column="0" Name="image" Height="16" Width="16" Stretch="Fill" Source="/exTibia;component/Graphics/Tibia.png"></Image>
+                            <TextBlock Grid.Column="1" FontSize="10" Text="{Binding Path=Title}" Margin="5 0 5 0" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                            <Button  Grid.Column="2" Height="18" FontSize="10" >Attach</Button>
+                            <Button  Grid.Column="3" Height="18" FontSize="10" >Close</Button>
+                        </Grid>
+                    </DataTemplate>
+                </MenuItem.ItemTemplate>
+            </MenuItem>
+
+            <CheckBox Content="Pause ExTibia" />
+            <MenuItem Name="menuItemCloseExTibia" Header="Close ExTibia" Click="menuItemCloseExTibia_Click" />
+        </MenuItem>
+            
+            <MenuItem Header="Options" Name="MenuSettings" >
+                <MenuItem Header="Settings" Click="MenuSettings_Click"/>
+                <MenuItem Header="Load Settings" />
+                <MenuItem Header="Save Settings" />
+                <MenuItem Header="Settings Slot">
+                    <CheckBox Content="Slot #1" />
+                    <CheckBox Content="Slot #2" />
+                    <CheckBox Content="Slot #3" />
+                    <CheckBox Content="Slot #4" />
+                    <CheckBox Content="Slot #5" />
+                </MenuItem>
+                <MenuItem Header="Clear Settings" />
+            </MenuItem>
+            
+            <MenuItem Header="View">
+                <MenuItem Header="Engine States" />
+                <MenuItem Header="Head-up Displays" />
+                <MenuItem Header="Waypoints Creator" />
+                <MenuItem Header="Battlelist Viewer" />
+                <MenuItem Header="Map Viewer" />
+            </MenuItem>
+            
+            <MenuItem Header="Library">
+                <MenuItem Header="Variables" />
+                <MenuItem Header="Functions" />
+                <MenuItem Header="User Libraries">
+                    <MenuItem Header="Ropiderz Library" />
+                </MenuItem>
+            </MenuItem>
+            
+            <MenuItem Header="Info">
+                <MenuItem Name="menuItemOfficialWebsite" Header="Official Website" Click="menuItemOfficialWebsite_Click">
+                <MenuItem Name="menuItemLatestNews" Header="Latest News " Click="menuItemLatestNews_Click" />
+                <MenuItem Name="menuItemPurchase" Header="Purchase " Click="menuItemPurchase_Click" />
+                <MenuItem Name="menuItemSupport" Header="Support" Click="menuItemSupport_Click" />
+                <MenuItem Name="menuItemMyAccount" Header="My Account" Click="menuItemMyAccount_Click" />
+                </MenuItem>
+            <MenuItem Name="menuItemOfficialForum" Header="Official Forum">
+                
+            </MenuItem>
+
+            <MenuItem Header="Fansites">
+                <MenuItem Name="menuItemBrasilFansite" Header="Official Brasil Fansite" Checked="menuItemBrasilFansite_Checked" />
+                <MenuItem Name="menuItemPolishFansite" Header="Official Polish Fansite" Click="menuItemPolishFansite_Click" />
+            </MenuItem>
+             <MenuItem Header="About ExTibia" />
+        </MenuItem>
+        </Menu> 
+</Window>

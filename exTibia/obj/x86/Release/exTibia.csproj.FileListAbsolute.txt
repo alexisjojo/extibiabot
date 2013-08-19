@@ -1,0 +1,107 @@
+D:\Projekty\exTibia\exTibia\exTibia\bin\Release\exTibia.exe.config
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\AlertsSafeList.baml
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\GameClientChoose.baml
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\MainWindow.baml
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\AlertsSafeList.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\HealerAddEditHealRule.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Settings.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\GameClientChoose.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\MainWindow.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\App\App.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\exTibia_MarkupCompile.cache
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\exTibia_MarkupCompile.lref
+D:\Projekty\exTibia\exTibia\exTibia\bin\Release\exTibia.exe
+D:\Projekty\exTibia\exTibia\exTibia\bin\Release\exTibia.pdb
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\HealerAddEditHealRule.baml
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Settings.baml
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.g.resources
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.Properties.Resources.resources
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.exe
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.pdb
+D:\Projekty\exTibia\exTibia\exTibia\bin\Release\Newtonsoft.Json.dll
+D:\Projekty\exTibia\exTibia\exTibia\bin\Release\Newtonsoft.Json.xml
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\CbEditWpt.baml
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\HudWindow.baml
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\CbEditWpt.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\HudWindow.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\bin\Release\exTibia.exe.config
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\bin\Release\exTibia.exe
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\bin\Release\exTibia.pdb
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\bin\Release\lua51.dll
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\bin\Release\LuaInterface.dll
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\TaskViewer.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\CbEditItems.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\CbEditWpt.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\HudWindow.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\AlertsSafeList.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\GameClientChoose.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\MainWindow.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\TaskViewer.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\CbEditItems.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\CbSpecialLoc.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\CbEditWpt.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\HudWindow.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\AlertsSafeList.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\HealerAddEditHealRule.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Settings.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\GameClientChoose.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\MainWindow.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\App\App.g.cs
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\exTibia_MarkupCompile.cache
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\exTibia_MarkupCompile.lref
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\CbSpecialLoc.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Help windows\HealerAddEditHealRule.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\Windows\Settings.baml
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.g.resources
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.Properties.Resources.resources
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.Resources.Resources.resources
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.exe
+D:\Projekty\exTibia\exTibia\exTibia\exTibia\obj\x86\Release\exTibia.pdb
+D:\Projekty\exTibiaSVN\exTibia\bin\Release\exTibia.exe.config
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\exTibia.exe
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\exTibia.pdb
+D:\Projekty\exTibiaSVN\exTibia\bin\Release\exTibia.exe
+D:\Projekty\exTibiaSVN\exTibia\bin\Release\exTibia.pdb
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\LgnWin.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\TargetingSpellOptions.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\TaskViewer.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\CbEditItems.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\CbEditWpt.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\HudWindow.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\AlertsSafeList.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\GameClientChoose.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\MainWindow.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\LgnWin.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\CbDrawMap.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\TargetingSpellOptions.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\TaskViewer.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\CbEditItems.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\CbSpecialLoc.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\CbEditWpt.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\HudWindow.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\AlertsSafeList.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\HealerAddEditHealRule.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Settings.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\GameClientChoose.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\MainWindow.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\App\App.g.cs
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\exTibia_MarkupCompile.cache
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\exTibia_MarkupCompile.lref
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\CbDrawMap.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\CbSpecialLoc.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Help windows\HealerAddEditHealRule.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\Windows\Settings.baml
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\exTibia.g.resources
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\exTibia.Properties.Resources.resources
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\exTibia.Resources.Resources.resources
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Projekty\exTibiaSVN\exTibia\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Projekty\exTibiaSVN\exTibia\bin\Release\ilua.dll
+D:\Projekty\exTibiaSVN\exTibia\bin\Release\lua.dll

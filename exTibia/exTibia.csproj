@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D80D4B93-F301-4238-9C22-EA3D1AC597A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>exTibia</RootNamespace>
+    <AssemblyName>exTibia</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>ruleSet.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Graphics\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0F05F4267B3124CD8C81CA22C5AB621499F77563</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>exTibia_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>App\exTibiaKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>exTibia.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="ilua, Version=2.0.4.34236, Culture=neutral, PublicKeyToken=1e1fb15b02227b8a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ilua.dll</HintPath>
+    </Reference>
+    <Reference Include="lua, Version=0.0.0.0, Culture=neutral, PublicKeyToken=1e1fb15b02227b8a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\lua.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App\App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Helpers\ExtensionMethods.cs" />
+    <Compile Include="Objects\NetworkMessage.cs" />
+    <Compile Include="Objects\PipeClient.cs" />
+    <Compile Include="Objects\PipeServer.cs" />
+    <Compile Include="Windows\MenuWindows\Functions.xaml.cs">
+      <DependentUpon>Functions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MenuWindows\Variables.xaml.cs">
+      <DependentUpon>Variables.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MenuWindows\BattlelistViewer.xaml.cs">
+      <DependentUpon>BattlelistViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MenuWindows\EngineStates.xaml.cs">
+      <DependentUpon>EngineStates.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\MenuWindows\HeadUpDisplays.xaml.cs">
+      <DependentUpon>HeadUpDisplays.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\Injector.cs" />
+    <Compile Include="Objects\Container.cs" />
+    <Compile Include="Objects\Inventory.cs" />
+    <Compile Include="Objects\Item.cs" />
+    <Compile Include="Objects\ItemContainer.cs" />
+    <Compile Include="Objects\ItemLocation.cs" />
+    <Compile Include="Objects\Slot.cs" />
+    <Compile Include="Objects\TradeItem.cs" />
+    <Compile Include="Helpers\Utils.cs" />
+    <Compile Include="Windows\MenuWindows\WaypointCreator.xaml.cs">
+      <DependentUpon>WaypointCreator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Help windows\LgnWin.xaml.cs">
+      <DependentUpon>LgnWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Help windows\CbDrawMap.xaml.cs">
+      <DependentUpon>CbDrawMap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\GlobalSuppressions.cs" />
+    <Compile Include="Helpers\Enums.cs" />
+    <Compile Include="Helpers\EventArgs.cs" />
+    <Compile Include="Modules\Healer\HealerAdditionalCondition.cs" />
+    <Compile Include="Modules\Healer\HealItem.cs" />
+    <Compile Include="Modules\Healer\HealRule.cs" />
+    <Compile Include="Helpers\Client.cs" />
+    <Compile Include="Helpers\KeyboardHook.cs" />
+    <Compile Include="Modules\Hud\HudScript.cs" />
+    <Compile Include="Modules\Hud\HudItem.cs" />
+    <Compile Include="Modules\Alerts\Alarm.cs" />
+    <Compile Include="Modules\Targeting\Targeting.cs" />
+    <Compile Include="Modules\Targeting\TargetSetting.cs" />
+    <Compile Include="Modules\Targeting\Targeter.cs" />
+    <Compile Include="Modules\Targeting\TargetinRule.cs" />
+    <Compile Include="Modules\CaveBot\WalkItemID.cs" />
+    <Compile Include="Objects\Packet.cs" />
+    <Compile Include="Windows\Help windows\TargetingSpellOptions.xaml.cs">
+      <DependentUpon>TargetingSpellOptions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Web\Player.cs" />
+    <Compile Include="Web\Tools.cs" />
+    <Compile Include="Windows\Help windows\TaskViewer.xaml.cs">
+      <DependentUpon>TaskViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Help windows\CbEditItems.xaml.cs">
+      <DependentUpon>CbEditItems.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\LuaEngine.cs" />
+    <Compile Include="Objects\LuaFunctions.cs" />
+    <Compile Include="Objects\LuaReg.cs" />
+    <Compile Include="Objects\Items.cs" />
+    <Compile Include="Objects\TibiaClient.cs" />
+    <Compile Include="Windows\Help windows\CbSpecialLoc.xaml.cs">
+      <DependentUpon>CbSpecialLoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\SpecialArea.cs" />
+    <Compile Include="Windows\Help windows\HudWindow.xaml.cs">
+      <DependentUpon>HudWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CaveBot\CaveBot.cs" />
+    <Compile Include="Windows\Help windows\CbEditWpt.xaml.cs">
+      <DependentUpon>CbEditWpt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\HelpMethods.cs" />
+    <Compile Include="Objects\Waypoint.cs" />
+    <Compile Include="Objects\Walker.cs" />
+    <Compile Include="Windows\Help windows\AlertsSafeList.xaml.cs">
+      <DependentUpon>AlertsSafeList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\PriorityQueue.cs" />
+    <Compile Include="Modules\Alerts\Alerts.cs" />
+    <Compile Include="Helpers\QueueItem.cs" />
+    <Compile Include="Windows\Help windows\HealerAddEditHealRule.xaml.cs">
+      <DependentUpon>HealerAddEditHealRule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\Worker.cs" />
+    <Page Include="Windows\MenuWindows\Functions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MenuWindows\Variables.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MenuWindows\BattlelistViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MenuWindows\EngineStates.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MenuWindows\HeadUpDisplays.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MenuWindows\WaypointCreator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\LgnWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\CbDrawMap.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\TargetingSpellOptions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\TaskViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\CbEditItems.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\CbSpecialLoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\CbEditWpt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\HudWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\AlertsSafeList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\HealerAddEditHealRule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Help windows\GameClientChoose.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Hud\Hud.cs" />
+    <Compile Include="Objects\HotkeysGame.cs" />
+    <Compile Include="Objects\Packets.cs" />
+    <Compile Include="Helpers\Queues.cs" />
+    <Compile Include="Windows\Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Help windows\GameClientChoose.xaml.cs">
+      <DependentUpon>GameClientChoose.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\TibiaClients.cs" />
+    <Compile Include="Modules\Healer\Healer.cs" />
+    <Compile Include="Objects\Cooldown.cs" />
+    <Compile Include="Helpers\HighResolutionTime.cs" />
+    <Compile Include="Helpers\IPathFinder.cs" />
+    <Compile Include="Objects\Map.cs" />
+    <Compile Include="Objects\MapGrid.cs" />
+    <Compile Include="Objects\GameGui.cs" />
+    <Compile Include="Objects\DatItems.cs" />
+    <Compile Include="Helpers\InputControl.cs" />
+    <Compile Include="Helpers\Debug.cs" />
+    <Compile Include="Helpers\Consts.cs" />
+    <Compile Include="Objects\Location.cs" />
+    <Compile Include="Objects\GameClient.cs" />
+    <Compile Include="Helpers\Addresses.cs" />
+    <Compile Include="Helpers\NativeMethods.cs" />
+    <Compile Include="Objects\Player.cs" />
+    <Compile Include="Objects\Tile.cs" />
+    <Compile Include="Helpers\PathFinder.cs" />
+    <Compile Include="Helpers\PriorityQueueB.cs" />
+    <Compile Include="Objects\Spells.cs" />
+    <Compile Include="Windows\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\Memory.cs" />
+    <Compile Include="Objects\Creature.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App\app.config" />
+    <None Include="App\exTibiaKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\Tibia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\Auth.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Graphics\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Modules\Hotkeys\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

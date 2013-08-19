@@ -1,0 +1,40 @@
+﻿<Window x:Class="exTibia.TargetingSpellOptions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/exTibia;component/Graphics/icon.ico"
+        Title="TargetingSpellOptions"  FontSize="9" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70" />
+            <ColumnDefinition Width="120" />
+        </Grid.ColumnDefinitions>
+
+
+
+        <TextBlock FontSize="9" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="0 0 10 0" HorizontalAlignment="Right">Spell</TextBlock>
+        <TextBlock FontSize="9"  Grid.Row="1" Grid.Column="0"  VerticalAlignment="Center" Margin="0 0 10 0"  HorizontalAlignment="Right">Delay</TextBlock>
+        <TextBlock FontSize="9"  Grid.Row="0" Grid.Column="1"  VerticalAlignment="Center" Margin="0 0 10 0"  HorizontalAlignment="Center" Name="TargetingSpellName">-</TextBlock>
+        <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="45" />
+                <ColumnDefinition Width="20" />
+                <ColumnDefinition Width="45" />
+            </Grid.ColumnDefinitions>
+
+            <TextBox FontSize="8" Width="45" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="0" Name="TargetingSettingsHPmin"></TextBox>
+            <TextBox FontSize="9" Width="45" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="2" Name="TargetingSettingsHPmax"></TextBox>
+            <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">to</TextBlock>
+            
+        </Grid>
+
+        <Button Grid.Row="3" FontSize="8" Width="45" Grid.ColumnSpan="2" HorizontalAlignment="Center" Name="TargetingSaveSpellSettigns">Close</Button>
+        <CheckBox Grid.Column="1" Grid.Row="2" Margin="5 0 0 0" HorizontalAlignment="Left"  VerticalAlignment="Center">Synchronized</CheckBox>
+
+    </Grid>
+</Window>

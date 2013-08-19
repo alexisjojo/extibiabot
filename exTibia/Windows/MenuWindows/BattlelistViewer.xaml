@@ -1,0 +1,8 @@
+﻿<Window x:Class="exTibia.BattlelistViewer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BattlelistViewer" Height="300" Width="429">
+    <Grid>
+        
+    </Grid>
+</Window>

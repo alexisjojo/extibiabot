@@ -1,0 +1,41 @@
+﻿<Window x:Class="exTibia.AlertsSafeList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/exTibia;component/Graphics/icon.ico"
+        Title="AlertsSafeList" Height="237" Width="201"  FontSize="9" WindowStyle="ToolWindow" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75*" />
+            <ColumnDefinition Width="69*" />
+            <ColumnDefinition Width="35*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="233*" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0"  Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center">Player name:</TextBlock>
+        <TextBox Name="txtName" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="18" Width="69"></TextBox>
+        <Button Name="AlertsAddtoList" Content="Add" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"  Height="18" Click="AlertsAddtoList_Click"></Button>
+
+        <ListBox Height="160" Width="160" BorderThickness="0 1 0 0" VerticalAlignment="Center" HorizontalAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Name="SafeListListBox" Grid.ColumnSpan="3" Margin="12,22,6,16" Grid.RowSpan="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Height="20">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="18" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="60"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding Path=Value}" HorizontalAlignment="Center"  VerticalAlignment="Center" />
+                        <Button Grid.Column="1" Name="SafelistDeleteBtn" Height="16" Width="40" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Remove" FontSize="9" Click="SafelistDeleteBtn_Click"></Button>                     
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
+
+    </Grid>
+</Window>
