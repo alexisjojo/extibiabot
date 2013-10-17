@@ -48,12 +48,12 @@ namespace exTibia
                 {
                     GameClient client = new GameClient(new TibiaClient(TibiaClients.GetProcessesFromClassName("TibiaClient")[0]));
                     client.AssignProcess();
-                    Title = String.Format("{0} {2} - {1}", fvi.ProductName, Player.Name, fvi.ProductVersion.Substring(0, 5));
+                    Title = String.Format("{0} {2} - {1}", fvi.ProductName, "xd", fvi.ProductVersion.Substring(0, 5));
                 }
                 else
                 {
                     GameClientWindow.ShowDialog();
-                    Title = String.Format("{0} {2} - {1}", fvi.ProductName, Player.Name, fvi.ProductVersion.Substring(0, 5));
+                    //Title = String.Format("{0} {2} - {1}", fvi.ProductName, "xd", fvi.ProductVersion.Substring(0, 5));
                 }
             }
             else
@@ -76,7 +76,7 @@ namespace exTibia
             //PipeClient.Instance.Connect();
             //PipeClient.Instance.Send(new NetworkMessage(new byte[] { 0x02 }));
 
-
+            /*
             int loadedItems = Items.LoadItems();           
 
             if (loadedItems != -1)
@@ -93,6 +93,7 @@ namespace exTibia
 
             GuiEquipment.Instance.UpdateGUI();
             var z = GuiEquipment.Instance;
+            */
         }
 
 

@@ -166,3 +166,53 @@ D:\my projects\Projects\exTibiaSVN\exTibia\obj\x86\Debug\GenerateResource.read.1
 D:\my projects\Projects\exTibiaSVN\exTibia\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\my projects\Projects\exTibiaSVN\exTibia\obj\x86\Debug\exTibia.exe
 D:\my projects\Projects\exTibiaSVN\exTibia\obj\x86\Debug\exTibia.pdb
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\Functions.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\Variables.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\BattlelistViewer.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\EngineStates.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\HeadUpDisplays.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\WaypointCreator.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\LgnWin.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\TargetingSpellOptions.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\TaskViewer.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\CbEditItems.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\CbEditWpt.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\HudWindow.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\AlertsSafeList.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\GameClientChoose.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\Functions.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\Variables.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\BattlelistViewer.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\EngineStates.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\HeadUpDisplays.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MenuWindows\WaypointCreator.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\LgnWin.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\CbDrawMap.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\TargetingSpellOptions.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\TaskViewer.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\CbEditItems.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\CbSpecialLoc.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\CbEditWpt.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\HudWindow.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\AlertsSafeList.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\HealerAddEditHealRule.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Settings.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\GameClientChoose.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MainWindow.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\App\App.g.cs
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\exTibia_MarkupCompile.cache
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\exTibia_MarkupCompile.lref
+E:\Projects\extibiabot\exTibia\bin\Debug\exTibia.exe.config
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\CbDrawMap.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\CbSpecialLoc.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Help windows\HealerAddEditHealRule.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\Settings.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\Windows\MainWindow.baml
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\exTibia.g.resources
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\exTibia.Properties.Resources.resources
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\exTibia.Resources.Resources.resources
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\exTibia.csproj.GenerateResource.Cache
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\exTibia.exe
+E:\Projects\extibiabot\exTibia\obj\x86\Debug\exTibia.pdb
+E:\Projects\extibiabot\exTibia\bin\Debug\exTibia.exe
+E:\Projects\extibiabot\exTibia\bin\Debug\exTibia.pdb
